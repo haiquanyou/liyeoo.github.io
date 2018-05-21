@@ -1743,6 +1743,14 @@
 				width: auto;
 			}
 
+.nav_ol {
+    list-style: none;
+    line-height: 55px;  
+
+    float: left;
+    margin-left: 5%;
+    color: #fff;
+}
 /* List */
 
 	ul.default {
@@ -1756,6 +1764,7 @@
 
 	ul.icons {
 		cursor: default;
+margin-left: 10%;
 	}
 
 		ul.icons li {
@@ -1998,7 +2007,31 @@
 		top: 0;
 		width: 375px;
 	}
-
+.test{
+	visibility: hidden;
+    background: #fff;
+    position: absolute;
+    float: left;
+    width: 100px;
+    height: 150px;
+    opacity: 1;
+    transition: opacity 1s;
+    border-radius: 6px;
+    margin-top: -160px;
+}
+.test:after {
+    content: "";
+    position: absolute;
+    left: 13%;
+    bottom: : -10%;
+    border: 5px solid;
+    /*分别是上右下左边框的颜色 如果三个方向透明  就是三角形*/
+    border-color: white transparent transparent  transparent;
+}
+.nav_ol:hover .test{
+visibility: visible;
+opacity: 1;
+}
 		#header .top {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
