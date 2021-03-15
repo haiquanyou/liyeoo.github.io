@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HQ YOU BLOG</title>
-    <link>http://haiquanyou.github.io/</link>
+    <link>https://github.com/haiquanyou/liyeoo.github.io/</link>
     <description>Recent content on HQ YOU BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://haiquanyou.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://github.com/haiquanyou/liyeoo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
